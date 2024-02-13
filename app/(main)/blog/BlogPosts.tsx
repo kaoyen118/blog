@@ -10,7 +10,7 @@ export async function BlogPosts({ limit = 5 }) {
   const postIdKeys = posts.map(({ _id }) => kvKeys.postViews(_id))
 
   let views: number[] = []
-  if (env.VERCEL_ENV === 'development') {
+  if (env.VERCEL_ENV === 'development' || posts.length === 0) {
     views = posts.map(() => Math.floor(Math.random() * 1000))
   } else {
     if (postIdKeys.length > 0) {
