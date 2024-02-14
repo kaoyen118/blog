@@ -3,7 +3,7 @@
 import { PortableText, type PortableTextComponents } from '@portabletext/react'
 import React from 'react'
 
-import { PeekabooLink } from '~/components/links/PeekabooLink'
+// import { PeekabooLink } from '~/components/links/PeekabooLink'
 import {
   PortableTextBlocksBlockquote,
   PortableTextBlocksH1,
@@ -39,9 +39,10 @@ const components: PortableTextComponents = {
         ? 'noreferrer noopener'
         : undefined
       return (
-        <PeekabooLink href={value.href} rel={rel}>
-          {children}
-        </PeekabooLink>
+        // <PeekabooLink href={value.href} rel={rel}>
+        //   {children}
+        // </PeekabooLink>
+        ""
       )
     },
   },
