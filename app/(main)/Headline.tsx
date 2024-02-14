@@ -98,17 +98,17 @@ export function Headline() {
         <SocialLink
           href="https://www.facebook.com/yan.gao.39794/"
           aria-label="My FaceBook"
-          platform="facebook"
+          platform="rss"
         />
         <SocialLink
           href=""
           aria-label="My whatapp"
-          platform="whatapp"
+          platform="rss"
         />
         <SocialLink
           href=""
           aria-label="My WeChat"
-          platform="wechat"
+          platform="rss"
         />  
         <SocialLink href="/feed.xml" platform="rss" aria-label="RSS 订阅" />
         <SocialLink
