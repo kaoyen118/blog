@@ -1,7 +1,7 @@
 export const seo = {
-  title: 'KaoYen Blog | 开发者、设计师、细节控、创始人',
+  title: 'KaoYen Blog |  Tourism expert, overseas study consultant, international trade manager, rationalist, engineer',
   description:
-    '我叫 KaoYen，一名开发者，设计师，细节控，同时也是佐玩创始人，目前带领着佐玩致力于创造一个充满创造力的工作环境，同时鼓励团队创造影响世界的产品。',
+    'Hi, I'm kaoyen, a Traveler, Study Abroad Consultant and International Trade Manager. I focus on rational thinking and am good at analyzing and executing. My background as an engineer allows me to find innovative solutions in various situations and put them into practice.',
   url: new URL(
     process.env.NODE_ENV === 'production'
       ? 'https://cali.so'

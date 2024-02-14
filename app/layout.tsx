@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     default: seo.title,
   },
   description: seo.description,
-  keywords: 'KaoYen,KaoYen Castle,高岩,创始人,开发者,设计师,细节控,创新',
+  keywords: 'KaoYen,KaoYen,高岩,Tourism expert,Overseas study consultant, International trade manager, Rationalist, Engineer',
   themeColor: [
     { media: '(prefers-color-scheme: dark)', color: '#000212' },
     { media: '(prefers-color-scheme: light)', color: '#fafafa' },

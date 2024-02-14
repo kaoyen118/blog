@@ -25,6 +25,9 @@ type Platform =
   | 'bilibili'
   | 'mail'
   | 'rss'
+  | 'facebook'
+  | 'whatapp'
+  | 'wechat'
 type PlatformInfo = {
   icon: IconType
   platform: Platform
