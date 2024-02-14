@@ -15,7 +15,7 @@ import { Button } from '~/components/ui/Button'
 const formId = '5108903'
 
 export const newsletterFormSchema = z.object({
-  email: z.string().email({ message: '邮箱地址不正确' }).nonempty(),
+  email: z.string().email({ message: 'Email address is incorrect' }).nonempty(),
   formId: z.string().nonempty(),
 })
 export type NewsletterForm = z.infer<typeof newsletterFormSchema>
@@ -101,7 +101,7 @@ export function Newsletter({ subCount }: { subCount?: string }) {
           >
             <input
               type="email"
-              placeholder="你的邮箱"
+              placeholder="your Email"
               aria-label="电子邮箱"
               required
               className="min-w-0 flex-auto appearance-none rounded-lg border border-zinc-900/10 bg-white px-3 py-[calc(theme(spacing.2)-1px)] placeholder:text-zinc-400 focus:border-lime-500 focus:outline-none focus:ring-4 focus:ring-lime-500/10 dark:border-zinc-700 dark:bg-zinc-700/[0.15] dark:text-zinc-200 dark:placeholder:text-zinc-500 dark:focus:border-lime-400/50 dark:focus:ring-lime-400/5 sm:text-sm"
@@ -112,7 +112,7 @@ export function Newsletter({ subCount }: { subCount?: string }) {
               className="ml-2 flex-none"
               disabled={isSubmitting}
             >
-              订阅
+              subscription
             </Button>
           </motion.div>
         ) : (
@@ -122,7 +122,7 @@ export function Newsletter({ subCount }: { subCount?: string }) {
             animate={{ opacity: 1, y: 0 }}
             exit="initial"
           >
-            请查收订阅确认邮件 🥳
+            Please check your subscription confirmation email 🥳
           </motion.p>
         )}
       </AnimatePresence>
