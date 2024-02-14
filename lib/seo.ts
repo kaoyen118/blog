@@ -1,7 +1,7 @@
 export const seo = {
-  title: 'Cali Castle | 开发者、设计师、细节控、创始人',
+  title: 'KaoYen Blog | 旅游达人，留学顾问，国际贸易经理，死理性派，工程师',
   description:
-    '我叫 Cali，一名开发者，设计师，细节控，同时也是佐玩创始人，目前带领着佐玩致力于创造一个充满创造力的工作环境，同时鼓励团队创造影响世界的产品。',
+    '我是kaoyen，一位旅游达人，留学顾问和国际贸易经理。我注重理性思维，善于分析和执行。我的工程师背景让我能够在各种情境下找到创新的解决方案，并且将其付诸实践。',
   url: new URL(
     process.env.NODE_ENV === 'production'
       ? 'https://cali.so'
