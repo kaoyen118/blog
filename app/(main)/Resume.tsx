@@ -16,25 +16,25 @@ type Resume = {
 }
 const resume: Resume[] = [
   {
-    company: '留学游学',
-    title: '学生',
+    company: 'Study Abroad',
+    title: 'Student',
     logo: zolplayLogo,
     start: '2022',
     end: {
-      label: '至今',
+      label: 'to present',
       dateTime: new Date().getFullYear(),
     },
   },
   {
-    company: '北京辐射中心',
-    title: '研究员',
+    company: 'Beijing Radiation Center',
+    title: 'Researcher',
     logo: vvsLogo,
     start: '2019',
     end: '2021',
   },
   {
-    company: '金融公司',
-    title: '资产管理顾问',
+    company: 'Finance company',
+    title: 'Asset Management Consultant',
     logo: eightNinthsLogo,
     start: '2015',
     end: '2018',
