@@ -44,14 +44,14 @@ export default function AskMeAnythingPage() {
         <ul>
           <li>
             <b>Travel Tips</b>
-            ：First time to travel abroad inexperienced? Language barrier can't communicate? Is it inconvenient to call a car in the hotel? Not easy to exchange foreign currency?
+            ：First time to travel abroad inexperienced? Language barrier can not communicate? Is it inconvenient to call a car in the hotel? Not easy to exchange foreign currency?
           </li>
           <li>
-            <b>Study abroad application Advice</b>：Choosing a country is difficult? Having trouble choosing a school? Don't understand the process of applying to study abroad? Incomplete preparation of materials? Don't know how to pay tuition in foreign currency?
+            <b>Study abroad application Advice</b>：Choosing a country is difficult? Having trouble choosing a school? Do not understand the process of applying to study abroad? Incomplete preparation of materials? Do not know how to pay tuition in foreign currency?
           </li>
           <li>
             <b>International Trade Related</b>
-            ：Choosing a country is difficult? Having trouble choosing a school? Don't understand the process of applying to study abroad? Incomplete preparation of materials? Don't know how to pay tuition in foreign currency?
+            ：Choosing a country is difficult? Having trouble choosing a school? Do not understand the process of applying to study abroad? Incomplete preparation of materials? Do not know how to pay tuition in foreign currency?
           </li>
           <li>
             <b>International Trade Related</b>：Foreign trade transport problems? Having trouble clearing customs?
