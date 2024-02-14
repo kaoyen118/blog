@@ -1,7 +1,7 @@
 import Image, { type StaticImageData } from 'next/image'
 import React from 'react'
 
-import { BriefcaseIcon } from '~/assets'
+// import { BriefcaseIcon } from '~/assets'
 import eightNinthsLogo from '~/assets/company/8ninths.jpeg'
 import abletiveLogo from '~/assets/company/abletive.png'
 import vvsLogo from '~/assets/company/vvs.png'
