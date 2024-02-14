@@ -1,5 +1,5 @@
-import Image, { type StaticImageData } from 'next/image'
-import React from 'react'
+// import Image, { type StaticImageData } from 'next/image'
+// import React from 'react'
 
 // import { BriefcaseIcon } from '~/assets'
 import eightNinthsLogo from '~/assets/company/8ninths.jpeg'
@@ -12,13 +12,13 @@ type Resume = {
   title: string
   start: string | { label: string; dateTime: number }
   end: string | { label: string; dateTime: number }
-  logo: StaticImageData
+  // logo: StaticImageData
 }
 const resume: Resume[] = [
   {
     company: '深圳市佐玩信息技术有限公司',
     title: '创始人 CEO',
-    logo: zolplayLogo,
+    // logo: zolplayLogo,
     start: '2021',
     end: {
       label: '至今',
@@ -28,21 +28,21 @@ const resume: Resume[] = [
   {
     company: 'very very spaceship',
     title: '软件工程师',
-    logo: vvsLogo,
+    // logo: vvsLogo,
     start: '2018',
     end: '2020',
   },
   {
     company: '8ninths Inc.',
     title: 'AR & 全栈工程师',
-    logo: eightNinthsLogo,
+    // logo: eightNinthsLogo,
     start: '2017',
     end: '2018',
   },
   {
     company: 'Abletive',
     title: '创始人',
-    logo: abletiveLogo,
+    // logo: abletiveLogo,
     start: '2014',
     end: '2016',
   },
