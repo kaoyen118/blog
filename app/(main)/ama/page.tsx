@@ -58,14 +58,14 @@ export default function AskMeAnythingPage() {
           </li>
         </ul>
 
-        <h2>定价</h2>
-        <p>我的一对一咨询的价格为：</p>
+        <h2>Pricing</h2>
+        <p>The price for my one-on-one consultation is:</p>
         <ul>
           <li>
-            <strong>¥150 - 30分钟</strong>
+            <strong>¥150 - 30 minutes</strong>
           </li>
           <li>
-            <strong>¥300 - 60分钟</strong>
+            <strong>¥300 - 60 minutes</strong>
           </li>
         </ul>
 
