@@ -38,13 +38,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: {
       default: seo.title,
-      template: '%s | Cali Castle',
+      template: '%s | KaoYen Castle',
     },
     description: seo.description,
-    siteName: 'Cali Castle',
+    siteName: 'KaoYen Castle',
     locale: 'zh_CN',
     type: 'website',
-    url: 'https://cali.so',
+    url: 'https://blog-xi-lovat-96.vercel.app/',
   },
   twitter: {
     site: '@thecalicastle',
