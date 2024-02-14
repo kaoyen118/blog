@@ -10,7 +10,7 @@ import { SocialLink } from '~/components/links/SocialLink'
 function Developer() {
   return (
     <span className="group">
-      <span className="font-mono">&lt;</span>旅游达人
+      <span className="font-mono">&lt;</span>Tourism expert
       <span className="font-mono">/&gt;</span>
       <span className="invisible inline-flex text-zinc-300 before:content-['|'] group-hover:visible group-hover:animate-typing dark:text-zinc-500" />
     </span>
@@ -26,7 +26,7 @@ function Designer() {
         <span className="absolute -bottom-0.5 -left-0.5 h-1.5 w-1.5 border border-lime-700 bg-zinc-50 dark:border-lime-400" />
         <span className="absolute -right-0.5 -top-0.5 h-1.5 w-1.5 border border-lime-700 bg-zinc-50 dark:border-lime-400" />
       </span>
-      留学顾问
+      Overseas study consultant
     </span>
   )
 }
@@ -35,7 +35,7 @@ function OCD() {
   return (
     <span className="group">
       <SparkleIcon className="mr-1 inline-flex transform-gpu transition-transform duration-500 group-hover:rotate-180" />
-      <span>国际贸易经理</span>
+      <span>International trade manager</span>
     </span>
   )
 }
@@ -44,7 +44,7 @@ function Founder() {
   return (
     <span className="group">
       <UserSecurityIcon className="mr-1 inline-flex group-hover:fill-zinc-600/20 dark:group-hover:fill-zinc-200/20" />
-      <span>死理性派</span>
+      <span>Rationalist</span>
     </span>
   )
 }
@@ -80,7 +80,7 @@ export function Headline() {
         }}
       >
         <Balancer>
-        你好，我是kaoyen，一位旅游达人，留学顾问和国际贸易经理。我注重理性思维，善于分析和执行。我的工程师背景让我能够在各种情境下找到创新的解决方案，并且将其付诸实践。
+        Hi, I'm kaoyen, a Traveler, Study Abroad Consultant and International Trade Manager. I focus on rational thinking and am good at analyzing and executing. My background as an engineer allows me to find innovative solutions in various situations and put them into practice.
         </Balancer>
       </motion.p>
       <motion.div
@@ -97,23 +97,23 @@ export function Headline() {
       >
         <SocialLink
           href="https://www.facebook.com/yan.gao.39794/"
-          aria-label="我的FaceBook"
+          aria-label="My FaceBook"
           platform="facebook"
         />
         <SocialLink
           href=""
-          aria-label="我的 whatapp"
+          aria-label="My whatapp"
           platform="whatapp"
         />
         <SocialLink
           href=""
-          aria-label="我的 WeChat"
+          aria-label="My WeChat"
           platform="wechat"
         />  
         <SocialLink href="/feed.xml" platform="rss" aria-label="RSS 订阅" />
         <SocialLink
           href="gaoyn888@gmail.com"
-          aria-label="我的邮箱"
+          aria-label="My Email"
           platform="mail"
         />
       </motion.div>
