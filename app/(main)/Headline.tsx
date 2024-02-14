@@ -80,7 +80,7 @@ export function Headline() {
         }}
       >
         <Balancer>
-        Hi, I'm kaoyen, a Traveler, Study Abroad Consultant and International Trade Manager. I focus on rational thinking and am good at analyzing and executing. My background as an engineer allows me to find innovative solutions in various situations and put them into practice.
+        Hi, I am kaoyen, a Traveler, Study Abroad Consultant and International Trade Manager. I focus on rational thinking and am good at analyzing and executing. My background as an engineer allows me to find innovative solutions in various situations and put them into practice.
         </Balancer>
       </motion.p>
       <motion.div
