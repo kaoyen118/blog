@@ -79,17 +79,17 @@ export function Newsletter({ subCount }: { subCount?: string }) {
       <input type="hidden" className="hidden" {...register('formId')} />
       <h2 className="flex items-center text-sm font-semibold text-zinc-900 dark:text-zinc-100">
         <TiltedSendIcon className="h-5 w-5 flex-none" />
-        <span className="ml-2">动态更新</span>
+        <span className="ml-2">Dynamic updates</span>
       </h2>
       <p className="mt-2 text-xs text-zinc-600 dark:text-zinc-400 md:text-sm">
-        <span>喜欢我的内容的话不妨订阅支持一下 🫶</span>
+        <span>If you like my content, please subscribe and support it. 🫶</span>
         <br />
         {subCount && (
           <span>
-            加入其他 <span className="font-medium">{subCount}</span> 位订阅者，
+            Join <span className="font-medium">{subCount}</span> other subscribers
           </span>
         )}
-        <span>每月一封，随时可以取消订阅。</span>
+        <span>and get one email per month, and you can unsubscribe at any time.</span>
       </p>
       <AnimatePresence mode="wait">
         {!isSubscribed ? (
