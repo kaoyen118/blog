@@ -34,7 +34,7 @@ export default function ProjectsPage() {
         </p>
       </header>
       <div className="mt-16 sm:mt-20">
-       {/* <Projects /> */}
+       <Projects />
       </div>
     </Container>
   )
